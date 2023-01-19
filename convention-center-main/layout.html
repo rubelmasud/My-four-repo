@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+   
+</head>
+<body>
+    <div class="text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row gx-2 mt-2">
+            <div class="col-12  "><div class="bg-primary mb-3 py-5">HEADER</div> </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-md-4  "><div class="bg-secondary py-5">BOX-1</div></div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-md-4"><div class=" bg-primary py-5">BOX-2</div></div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-md-4 "><div class="bg-secondary py-5">BOX-3</div></div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-md-4 "><div class=" bg-primary py-5">BOX-4</div></div>
+        </div>
+      
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row gx-2 mt-2">
+          <div class="col-12 col-xl-6 col-md-4  "><div class="bg-primary py-5">SECTION-1</div></div>
+          <div class="col-12 col-xl-6 "><div class="bg-secondary py-5">SECTION-2</div></div>
+          
+        </div>
+      
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row gx-2 mt-2 ">
+          <div class="col-12 col-xl-9"><div class="  bg-secondary py-5 ">CONTANT-1</div></div>
+          <div class="col-12 col-xl-3 "><div class="bg-primary py-5">CONTANT-2</div></div>
+        </div>
+      </div>
+    <!-- js -->
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
